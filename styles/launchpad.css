@@ -293,3 +293,65 @@ main{
     align-items: center;
 
 }
+
+/* get in touch */
+.get-touch-section{
+   padding: 90px 150px;
+    
+}
+.get-touch-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 100px;
+    /* width: 50%; */
+   
+}
+
+.get-touch-content h1{
+    color: #000;
+    font-size: 97px;
+    font-weight: 700;
+    line-height: 118px;
+    width: 528px;
+}
+
+
+.get-touch-form input{
+    display: block;
+    margin-bottom: 30px;
+}
+
+.get-touch-form input[type="text"] , .get-touch-form input[type="email"] , .get-touch-form textarea{
+    border: 1px solid #D6DDED;
+    border-radius: 10px;
+    background: #FFF;
+    padding: 20px 32px;
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 20px;
+    font-weight: 400;
+    width:100%;
+    gap: 30px;
+}
+
+.input-name{
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.get-touch-button{
+    border-radius: 10px;
+    background: #4E47FF;
+    padding: 19px 101px;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%; /* 24px */
+    margin-top: 20px;
+    border: none;
+    width:112%;
+    gap: 30px;
+}
