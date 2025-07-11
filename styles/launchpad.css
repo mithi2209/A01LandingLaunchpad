@@ -352,6 +352,57 @@ main{
     line-height: 150%; /* 24px */
     margin-top: 20px;
     border: none;
+    cursor: pointer;
     width:112%;
     gap: 30px;
+}
+
+.get-touch-button:hover{
+    background-color:rgb(235, 164, 72);
+}
+
+/* footer */
+
+.footer-section-container{
+    padding: 104px 455px 103px 454px;
+    border-top: 1px solid rgba(0, 0, 0, 0.10);
+    background: #FFF;
+}
+.footer-title{
+    color:  #4E47FF;
+    text-align: center;
+    font-size: 100px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.footer-description{
+    color: #8987A1;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+.footer-info ul{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+.footer-info ul >li{
+    list-style: none;
+    margin-right: 40px;
+    
+}
+.footer-info ul >li a{
+    text-decoration: none;
+    color: #8987A1;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
 }
