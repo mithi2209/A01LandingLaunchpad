@@ -31,7 +31,11 @@
   border: none;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 
+}
+.btn-common:hover{
+    background-color:rgb(235, 164, 72)
 }
 
 
@@ -61,6 +65,10 @@ nav h4 {
     font-weight: 800;
 }
 
+/* main */
+main{
+    background-color: #F5F8FF;
+}
 /* banner */
 .banner-container{
     /* margin: 200px 200px; */
@@ -87,4 +95,36 @@ nav h4 {
     text-align: center;
 
 
+}
+
+/* action section */
+.action-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 116px auto;
+}
+
+/* action content */
+.action-title{
+    color: #252432;
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 23px;
+}
+
+.action-description{
+    color: rgba(37, 36, 50, 0.50);
+    width: 517px;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 23px;
+    line-height: 30px;
+}
+
+.action-img{
+    width: 400px;
+    height: 300px;
+    border-radius: 48px;
+    margin-top: 116px;
 }
