@@ -245,3 +245,51 @@ main{
     font-weight: 400;
     line-height: 22px;
 }
+
+/* focus section */
+.focus-section-container{
+    border-radius: 14px;
+    background: #FFF;
+    margin: 130px auto;
+    text-align: center;
+    max-width: 1380px;
+    
+}
+
+.focus-container{
+     padding: 71px 150px;
+}
+
+.focus-contents{
+    text-align: center;
+   
+}
+.focus-header{
+    color: #000;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    
+    
+
+
+}
+.focus-subtitle{
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.focus-button {
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.img-container{
+    align-items: center;
+    text-align: center;
+    
+}
+.focus-image{
+    border-radius: 48px;
+    align-items: center;
+
+}
